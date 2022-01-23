@@ -1,8 +1,8 @@
 const yesBtn = document.querySelector('#yesBtn');
 
     yesBtn.addEventListener('click',function () {
-        alert('SABIA QUE DIRIAS SI')
-        alert('ME HACES LA PERSONA MAS FELIZ')
+        alert('Actualiza tu antivirus')
+        alert('Maldito Virus 😎💕')
     });
 
 const noBtn = document.querySelector('#noBtn');
