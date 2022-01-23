@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acepta BB💞💕</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/modal.css">
+    <link rel="shortcut icon" href="img/logo.png">
 </head>
 <body>
     <div class="contenedor">
@@ -20,22 +21,69 @@
             </p>
         </class>
         <div>
-            <img src="imagen.png" width="30%" >
+            <img src="img/imagen.png" width="30%" >
             <br>
         </div>
-            <button id="yesBtn" class="bn-neon">SI</button>
+            <button id="yesBtn" class="bn-neon open-modal" data-open="modal1">SI</button>
+
+              <div class="modal" id="modal1" data-animation="slideInOutLeft">
+                <div class="modal-dialog">
+                  <header class="modal-header">
+                    <h2>Qué, chismooosa o que 😏 vaya a besarme 🙊</h2>
+                    <button class="close-modal" aria-label="close modal" data-close>
+                      ❌ 
+                    </button>
+                  </header>
+                  <section class="modal-content">
+                    <h3>Esperabas Rosas? 🌹🌹🌹🌹 pero tienen espinas
+                        😎😹🤣🌿🐵😺 Me pides curita 😹😹</h3><hr><hr>
+                  </section>
+                  <footer class="modal-footer">
+                    <button type="button" class="open-modal bn-neon" id="yesBtn" style="align-items: center;" data-open="modal2">
+                            Click!
+                    </button>
+                  </footer>
+                </div>
+              </div>
+              
+              <div class="modal" id="modal2" data-animation="mixInAnimations">
+                <div class="modal-dialog">
+                  <header class="modal-header">
+                    <h4>🙊🙊🙊🍻🍻
+                    </h4>
+                    <button class="close-modal" aria-label="close modal" data-close>
+                        ❌  
+                    </button>
+                  </header>
+                  <section class="modal-content">
+                      <img src="img/meme.jpg" alt="">
+                  </section>
+  
+                </div>
+              </div>
             <button id="noBtn">NO</button>
 
     
-    <br><br><br>
+    <br><br><br><br>
 
-    <audio autoplay controls >
-        <source src="audio.mp3" type="audio/mp3">
-    </div>  
-</audio>
-
-    <script src="js.js"></script>
-    
+    <audio autoplay controls>
+        <source src="media/audio.mp3" type="audio/mp3">
+    </audio>
+    </div>
+    <div class="burbujas">
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+    </div>
+    <script src="src/js.js"></script>
+    <script src="src/modal.js"></script> 
 </body>
 </html>
 
